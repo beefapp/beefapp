@@ -1,0 +1,146 @@
+# Privacy Policy
+
+**Beef — Fitness Tracker**
+Last updated: August 15, 2026
+
+This Privacy Policy describes how Beef ("we", "our", or "the app") collects, uses, and stores information when you use the Beef iOS application. We have written this policy to be straightforward and specific to what Beef actually does.
+
+---
+
+## 1. Summary
+
+Beef is a fitness tracking app. Almost all of your data stays on your device or in your personal iCloud account. We do not run advertising, we do not sell your data, and we do not use third-party analytics SDKs.
+
+---
+
+## 2. Information We Collect and Why
+
+### 2.1 Health and Fitness Data
+
+Beef requests access to Apple Health (HealthKit) to:
+
+- **Read** heart rate data from Apple Watch during workouts and cardio sessions
+- **Write** completed workout and cardio session data back to Apple Health so it appears in your Health app and Activity rings
+
+This data is processed entirely on your device. It is not transmitted to any server we control. Access is granted only when you explicitly approve it through the iOS permission prompt. You can revoke this access at any time in iOS Settings → Privacy & Security → Health → Beef.
+
+### 2.2 Location Data
+
+Beef uses your device's GPS to measure distance, pace, and route during outdoor cardio sessions (runs, walks, hikes, cycling). Location data:
+
+- Is collected only while an active cardio session is in progress
+- Is stored on your device and synced to your personal iCloud account
+- Is never transmitted to any server we control
+- Precise location is used to accurately measure distance
+
+You can deny location access at any time in iOS Settings → Privacy & Security → Location Services → Beef. Denying location will prevent distance tracking during outdoor sessions.
+
+### 2.3 Camera
+
+Beef uses your camera solely to scan barcodes when logging food. No images or video are stored, recorded, or transmitted. The camera feed is processed locally and discarded immediately after a barcode is detected.
+
+### 2.4 Data You Enter Directly
+
+Beef stores the following data that you create:
+
+- **Workout logs** — exercises, sets, reps, weights, notes, and timestamps
+- **Cardio logs** — activity type, distance, duration, pace, and timestamps
+- **Nutrition logs** — meals, food items, calorie and macro values
+- **Body data** — body weight entries and body measurement entries
+- **Profile settings** — display name, biological sex, date of birth, height, and weight (used for calorie estimation)
+- **Goals** — daily calorie and macro targets
+- **Workout splits and templates** — your planned training schedules
+- **App preferences** — theme, units, notification settings, widget layout
+
+All of this data is stored in SwiftData on your device and optionally synced to your personal iCloud account via CloudKit (see Section 3).
+
+### 2.5 Food Database Queries
+
+When you search for a food by name, Beef queries the Open Food Facts API (openfoodfacts.org), an open-source, community-maintained food database. This query sends the search term you typed to their servers. No account information, device identifiers, or personal data are sent with this request. Open Food Facts is a nonprofit project; their privacy policy is available at openfoodfacts.org.
+
+### 2.6 In-App Purchases
+
+Subscriptions and purchases are handled entirely by Apple through the App Store and StoreKit. Beef never sees, receives, or stores your payment information. Apple's privacy policy governs all transaction data. Beef only receives confirmation of whether a subscription is active.
+
+---
+
+## 3. iCloud Sync
+
+If you are signed into iCloud on your device, Beef uses CloudKit to sync your data across your own devices. This data:
+
+- Is stored in your personal iCloud account, which only you can access
+- Is governed by Apple's iCloud Terms and Privacy Policy
+- Can be deleted by removing Beef's iCloud data in iOS Settings → [Your Name] → iCloud → Manage Account Storage
+
+You can disable iCloud sync for Beef at any time in iOS Settings → [Your Name] → iCloud → Apps Using iCloud → Beef.
+
+---
+
+## 4. Notifications
+
+Beef may send local push notifications for:
+
+- **Workout reminders** — scheduled based on your past workout times and active split days; generated and delivered entirely on your device with no server involvement
+
+No notification content is transmitted to any external server.
+
+---
+
+## 5. Widgets and App Extensions
+
+Beef includes home screen widgets and an Apple Watch companion app. These extensions share a limited set of data (such as whether you are a Pro subscriber and recent workout summaries) through iOS App Groups, which is a local on-device mechanism. No data is sent to external servers for this purpose.
+
+---
+
+## 6. Data We Do Not Collect
+
+To be explicit, Beef does **not**:
+
+- Use advertising SDKs or display ads
+- Use third-party analytics or crash reporting SDKs (such as Firebase, Mixpanel, Amplitude, or similar)
+- Track you across apps or websites owned by other companies
+- Collect your IP address
+- Collect device identifiers for advertising purposes
+- Sell, rent, or share your personal data with any third party
+
+---
+
+## 7. Children's Privacy
+
+Beef is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe your child has provided us with personal information, please contact us and we will delete it.
+
+---
+
+## 8. Data Retention and Deletion
+
+Your data lives on your device and in your iCloud account. To delete all Beef data:
+
+1. **Delete the app** from your iPhone — this removes all local SwiftData storage
+2. **Remove iCloud data** in iOS Settings → [Your Name] → iCloud → Manage Account Storage → Beef → Delete Data
+
+If you sign in with Apple, you can revoke that sign-in at any time in iOS Settings → [Your Name] → Password & Security → Apps Using Apple ID → Beef → Stop Using Apple ID.
+
+---
+
+## 9. Security
+
+Data on your device is protected by iOS's standard encryption. Data synced to iCloud is encrypted by Apple in transit and at rest. We do not operate any servers that store your personal health or fitness data.
+
+---
+
+## 10. Changes to This Policy
+
+If we make material changes to this policy, we will update the "Last updated" date at the top of this page. We encourage you to review this policy periodically.
+
+---
+
+## 11. Contact
+
+If you have questions about this privacy policy or your data, please contact:
+
+**Wyatt Hagemeister**
+Email: whyhowdomy@gmail.com
+
+---
+
+*Beef is an independent app and is not affiliated with or endorsed by Apple Inc.*
